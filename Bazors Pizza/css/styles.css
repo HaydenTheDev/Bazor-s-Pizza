@@ -1,0 +1,117 @@
+.container-fluid {
+  padding: 3% 15%;
+}
+
+body {
+  font-family: 'Oswald';
+}
+
+#title {
+  background-color: #e6d385;
+  color: white;
+}
+
+#features {
+  padding: 5% 7%;
+  color: black;
+  text-align: center;
+}
+
+#testimonials {
+  background-color: #5c7658;
+  text-align: center;
+}
+
+#press {
+  background-color: #5c7658;
+}
+
+#pricing {
+  background-color: white;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+#cta {
+  background-color: #681313;
+  text-align: center;
+}
+
+#footer {
+  background-color: #d25959;
+  text-align: center;
+}
+.footer-space{
+  margin-bottom: 0;
+  padding: 0;
+}
+.contact-space{
+  margin-bottom: 0;
+  padding: 0 0 1% 0;
+}
+
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.nav-item {
+  padding: 0 3px;
+}
+
+.title-image {
+  width: 100%;
+}
+
+.img-middle {
+  margin-bottom: 2rem;
+  color: #5c7658;
+}
+
+.img-middle:hover {
+  color: #e6d385;
+}
+
+.feature-section {
+  font-size: 2.5rem;
+}
+
+.Desc-middle {
+  font-size: 1rem;
+  color: grey;
+  padding: 0 7%;
+}
+
+.Menu-title {
+  text-align: center;
+  padding: 4% 5%;
+  font-size: 3.5rem;
+  font-family: 'Lobster', cursive;
+}
+.menu-ic{
+  width:65%;
+  padding: 5% 5%;
+}
+
+.row-two{
+  margin-bottom: 3rem;
+}
+
+.contact-spacing{
+  padding:0 30%;
+}
