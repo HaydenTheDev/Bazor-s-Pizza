@@ -11,6 +11,7 @@
   <!-- Style Sheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/pizza-icon-top.png">
   <!-- FontAwesome -->
   <script src="https://use.fontawesome.com/releases/v5.9.0/js/all.js" data-auto-replace-svg="nest"></script>
   <!-- Bootstrap Scripts -->
@@ -56,9 +57,9 @@
 
       <!-- Title -->
 
-      <div class="row">
+      <div class="row top-div">
         <div class="col-lg-6" style="background-color: #e6d385;">
-          <h1>Order the best pizza for a great price.</h1>
+          <h1 class="intro-text">Come in and try the best pizza around.</h1>
           <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-car-alt"></i> Delivery</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-cart-arrow-down"></i> Carryout</button>
         </div>
@@ -86,7 +87,7 @@
         <div class="col-lg-4">
           <i class="img-middle fab fa-pagelines fa-4x"></i>
           <h3 class="feature-section">Cozy Environment</h3>
-          <p class="Desc-middle">Sit back and enjoy our fine and comfortable Restaurant.</p>
+          <p class="Desc-middle">Sit back and enjoy our fine and comfortable restaurant.</p>
         </div>
         <div class="col-lg-4">
           <i class="img-middle fas fa-pizza-slice fa-4x"></i>
@@ -101,43 +102,41 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div class="container-fluid">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false" data-interval="4000" data-pause="hover">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <h2 class="testi">"VERY NICE"</h2>
-            <img class="testi-pic" src="images/borat.jpg" alt="dog-profile">
+            <h2 class="testi">"THIS RESTAURANT WAS GOOD TO EAT. I WOULD RATE THIS 10/VERY NICE!"</h2>
+            <img class="testimonial-image" src="images/borat.jpg" alt="dog-profile">
             <em>Borat, Khazakstan</em>
           </div>
           <div class="carousel-item">
-            <h2 class="testi">"I would eat here everyday if I could."</h2>
+            <h2 class="testi">"I would eat here everyday if I could. The pizzas were some of the best I've ever had!"</h2>
             <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-            <em>Metropolis, Illinois</em>
+            <em>Jenny, Illinois</em>
           </div>
           <div class="carousel-item">
-            <h2 class="testi">"Great Pizza"</h2>
+            <h2 class="testi">"I once had some pizza that was 5/5 in Hollywood, but this pizza completely blows that away!"</h2>
             <img class="testimonial-image" src="images/leo.jpg" alt="lady-profile">
-            <em>La, California</em>
+            <em>Leo, California</em>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
       </div>
-    </div>
   </section>
 
 
   <!-- Press -->
 
   <section id="press">
-    <img class="credit" src="images/techcrunch.png" alt="tc-logo">
-    <img class="credit" src="images/tnw.png" alt="tnw-logo">
+    <img class="credit" src="images/pizzahut.png" alt="tc-logo">
+    <img class="credit" src="images/lil c.png" alt="tnw-logo">
     <img class="credit" src="images/bizinsider.png" alt="biz-insider-logo">
     <img class="credit" src="images/mashable.png" alt="mashable-logo">
 
@@ -169,7 +168,7 @@
 
         <div class="col-lg-4">
           <img class="menu-ic" src="images/lasagna-icon.png" alt="">
-          <h3>Meat sauce Lasagna</h3>
+          <h3>Lasagna</h3>
           <p class="Desc-middle">$10.99</p>
         </div>
       </div>
@@ -185,7 +184,7 @@
 
         <div class="col-lg-4">
           <img class="menu-ic" src="images/chickenalfredo-icon.png" alt="">
-          <h3>Chicken Alfredo Spaghetti</h3>
+          <h3>Chicken Alfredo</h3>
           <p class="Desc-middle">$11.99</p>
         </div>
 
@@ -201,18 +200,21 @@
   </section>
 
 
+
+
+
   <!-- Call to Action -->
 
   <section id="cta">
     <div class="row contact-spacing">
-      <div class="col">
-        <p>Facebook</p>
+      <div class="col col-facebook">
+        <img class="facebook" src="images/facebook.png" alt="Facebook">
       </div>
       <div class="col">
-        <p>Twitter</p>
+        <img class="twitter" src="images/twitter.png" alt="Twitter">
       </div>
-      <div class="col">
-        <p>Instagram</p>
+      <div class="col col-instagram">
+        <img class="instagram" src="images/instagram.png" alt="Instagram">
       </div>
     </div>
 
