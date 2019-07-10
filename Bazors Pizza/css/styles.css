@@ -1,3 +1,5 @@
+
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -20,10 +22,21 @@ body {
 #testimonials {
   background-color: #5c7658;
   text-align: center;
+  font-family: 'Oswald';
+  line-height: 1.5;
+  font-size: 3rem;
+  color: white;
+}
+em{
+  font-size: 1rem;
+  color: white;
 }
 
 #press {
   background-color: #5c7658;
+  text-align: center;
+  padding-bottom: 3%;
+
 }
 
 #pricing {
@@ -33,7 +46,7 @@ body {
 }
 
 #cta {
-  background-color: #681313;
+  background-color: #d25959;
   text-align: center;
 }
 
@@ -44,16 +57,20 @@ body {
 .footer-space{
   margin-bottom: 0;
   padding: 0;
+  color: white;
+  font-size: 60%;
 }
 .contact-space{
   margin-bottom: 0;
-  padding: 0 0 1% 0;
+  padding: 0 0 0 0;
+  color: white;
+  font-size: 1.5rem;
 }
 
 
 h1 {
   font-family: 'Lobster', cursive;
-  font-size: 3.5rem;
+  font-size: 4rem;
   line-height: 1.5;
   text-align: left;
   margin-bottom: 3rem;
@@ -100,7 +117,7 @@ h1 {
 .Menu-title {
   text-align: center;
   padding: 4% 5%;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-family: 'Lobster', cursive;
 }
 .menu-ic{
@@ -113,5 +130,58 @@ h1 {
 }
 
 .contact-spacing{
-  padding:0 30%;
+  padding:1% 30% 1% 30%;
+}
+
+
+.testi{
+  font-size: 3rem;
+  margin-bottom: 7%;
+}
+
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.credit{
+  width: 15%;
+  margin: 90px 20px 10px 20px;
+}
+
+/* Social medial */
+
+.facebook{
+  width: 20%;
+}
+.col-facebook{
+  text-align: right;
+}
+.twitter{
+  width: 20%;
+}
+.instagram{
+  width: 20%;
+}
+.col-instagram{
+  text-align: left;
+}
+
+/* queries */
+
+@media(max-width: 1028px) {
+  .top-div{
+    text-align: center;
+  }
+  .intro-text{
+    text-align: center;
+  }
+  .title-image{
+    padding-top: 4%;
+  }
 }

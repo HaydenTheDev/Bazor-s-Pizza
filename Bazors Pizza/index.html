@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Bazors Pizza</title>
+  <title>Bazor's Pizza</title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=B612+Mono|Noto+Sans+HK|Pacifico&display=swap" rel="stylesheet">
@@ -11,6 +11,7 @@
   <!-- Style Sheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/pizza-icon-top.png">
   <!-- FontAwesome -->
   <script src="https://use.fontawesome.com/releases/v5.9.0/js/all.js" data-auto-replace-svg="nest"></script>
   <!-- Bootstrap Scripts -->
@@ -56,9 +57,9 @@
 
       <!-- Title -->
 
-      <div class="row">
+      <div class="row top-div">
         <div class="col-lg-6" style="background-color: #e6d385;">
-          <h1>Order the best pizza for a great price.</h1>
+          <h1 class="intro-text">Come in and try the best pizza around.</h1>
           <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-car-alt"></i> Delivery</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-cart-arrow-down"></i> Carryout</button>
         </div>
@@ -80,17 +81,17 @@
       <div class="row">
         <div class="col-lg-4">
           <i class="img-middle fas fa-utensils fa-4x"></i>
-          <h3 class="feature-section">Homemade Food.</h3>
+          <h3 class="feature-section">Homemade Food</h3>
           <p class="Desc-middle">Food so good you think your grandma made it.</p>
         </div>
         <div class="col-lg-4">
           <i class="img-middle fab fa-pagelines fa-4x"></i>
           <h3 class="feature-section">Cozy Environment</h3>
-          <p class="Desc-middle">Sit back and enjoy our fine and comfortable Restaurant.</p>
+          <p class="Desc-middle">Sit back and enjoy our fine and comfortable restaurant.</p>
         </div>
         <div class="col-lg-4">
           <i class="img-middle fas fa-pizza-slice fa-4x"></i>
-          <h3 class="feature-section">Variety of Food.</h3>
+          <h3 class="feature-section">Variety of Food</h3>
           <p class="Desc-middle">If you don't want pizza, try some of our other foods.</p>
         </div>
       </div>
@@ -101,25 +102,43 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div class="container-fluid">
-      <h2>This is by far one of the best Pizzarias ever.</h2>
-      <img src="images/dog-img.jpg" alt="dog-profile">
-      <em>Pebbles, New York</em>
-
-      <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-    </div>
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false" data-interval="4000" data-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testi">"THIS RESTAURANT WAS GOOD TO EAT. I WOULD RATE THIS 10/VERY NICE!"</h2>
+            <img class="testimonial-image" src="images/borat.jpg" alt="dog-profile">
+            <em>Borat, Khazakstan</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testi">"I would eat here everyday if I could. The pizzas were some of the best I've ever had!"</h2>
+            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Jenny, Illinois</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testi">"I once had some pizza that was 5/5 in Hollywood, but this pizza completely blows that away!"</h2>
+            <img class="testimonial-image" src="images/leo.jpg" alt="lady-profile">
+            <em>Leo, California</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+      </div>
   </section>
 
 
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="credit" src="images/pizzahut.png" alt="tc-logo">
+    <img class="credit" src="images/lil c.png" alt="tnw-logo">
+    <img class="credit" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="credit" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
@@ -130,7 +149,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col">
-          <h2 class="Menu-title">Menu Pricing</h2>
+          <h2 class="Menu-title">Menu</h2>
         </div>
       </div>
 
@@ -149,10 +168,10 @@
 
         <div class="col-lg-4">
           <img class="menu-ic" src="images/lasagna-icon.png" alt="">
-          <h3>Meat sauce Lasagna</h3>
+          <h3>Lasagna</h3>
           <p class="Desc-middle">$10.99</p>
         </div>
-        </div>
+      </div>
 
       <!-- TEST MENU -->
 
@@ -165,7 +184,7 @@
 
         <div class="col-lg-4">
           <img class="menu-ic" src="images/chickenalfredo-icon.png" alt="">
-          <h3>Chicken Alfredo Spaghetti</h3>
+          <h3>Chicken Alfredo</h3>
           <p class="Desc-middle">$11.99</p>
         </div>
 
@@ -175,26 +194,28 @@
           <p class="Desc-middle">$10.99</p>
         </div>
 
-        </div>
       </div>
     </div>
+    </div>
   </section>
+
+
+
 
 
   <!-- Call to Action -->
 
   <section id="cta">
-    <h3>Contact</h3>
-  <div class="row contact-spacing">
-    <div class="col">
-    <p>Facebook</p>
-    </div>
-    <div class="col">
-    <p>Twitter</p>
-    </div>
-    <div class="col">
-    <p>Instagram</p>
-    </div>
+    <div class="row contact-spacing">
+      <div class="col col-facebook">
+        <img class="facebook" src="images/facebook.png" alt="Facebook">
+      </div>
+      <div class="col">
+        <img class="twitter" src="images/twitter.png" alt="Twitter">
+      </div>
+      <div class="col col-instagram">
+        <img class="instagram" src="images/instagram.png" alt="Instagram">
+      </div>
     </div>
 
     <p class="contact-space">Phone: 219-555-6789</p>
